@@ -1,0 +1,7 @@
+body {
+    background-color: var(--clr-bg);
+}
+
+h1, h2 {
+    color: #fff;
+}
