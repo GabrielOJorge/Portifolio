@@ -1,7 +1,17 @@
 body {
-    background-color: var(--clr-bg);
+    background: url(/src/assets/images/bg-img-desktop.svg) no-repeat center fixed #000;
+    background-size: 100%;
 }
 
-h1, h2 {
+h1, h2, p {
+    font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
+
+h1 {
+    font-size: clamp(1rem, 7rem, 18vw);
+    font-weight: 600;
+}
+
+
+
