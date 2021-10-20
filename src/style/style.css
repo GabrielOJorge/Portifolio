@@ -1,0 +1,7 @@
+.landing-page {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
+}
