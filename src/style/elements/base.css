@@ -1,6 +1,7 @@
 body {
+    width: max(280px, 100%);
     background: url(/src/assets/images/bg-img-desktop.svg) no-repeat center fixed #000;
-    background-size: 100%;
+    background-size: cover;
 }
 
 h1, h2, p {
@@ -9,7 +10,7 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: clamp(1rem, 7rem, 18vw);
+    font-size: clamp(3rem, 5rem, 7rem);
     font-weight: 600;
 }
 
