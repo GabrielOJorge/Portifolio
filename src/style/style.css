@@ -1,6 +1,10 @@
-.landing-page {
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 1024px;
+}
+
+.banner > div {
+    text-align: center;
 }
