@@ -2,9 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1024px;
+    height: 100vh;
 }
 
-.banner > div {
+.banner div {
     text-align: center;
+}
+
+.banner p {
+    font-size: clamp(2rem, 3rem, 3rem);
 }

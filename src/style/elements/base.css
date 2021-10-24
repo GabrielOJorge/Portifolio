@@ -15,8 +15,8 @@ h1 {
     font-weight: 600;
 }
 
-h2 {
-    font-size: clamp(1.5rem, 2rem, 3rem);
+p {
+    font-size: clamp(1.5rem, 2.5rem, 3rem);
 }
 
 
