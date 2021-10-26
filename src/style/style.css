@@ -10,5 +10,10 @@
 }
 
 .banner p {
-    font-size: clamp(2rem, 3rem, 3rem);
+    font-size: clamp(2rem, 4rem, 4vw);
+}
+
+.info {
+    max-width: 80%;
+    background-color: var(--clr-bg);
 }
