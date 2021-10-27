@@ -10,14 +10,17 @@
 }
 
 .banner p {
-    font-size: clamp(2rem, 4rem, 4vw);
+    font-size: clamp(2rem, 3.5rem, 4vw);
 }
 
 .info {
-    width: min(800px, 80%);
+    display: flex;
+    justify-content: center;
+    width: min(700px, 80%);
+    text-align: center;
+    background-color: var(--clr-bg);
 }
 
 .info .content {
-    background-color: var(--clr-bg);
-    opacity: .8;
+    width: 80%;
 }
