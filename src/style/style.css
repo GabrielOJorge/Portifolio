@@ -14,6 +14,10 @@
 }
 
 .info {
-    max-width: 80%;
+    width: min(800px, 80%);
+}
+
+.info .content {
     background-color: var(--clr-bg);
+    opacity: .8;
 }
