@@ -13,7 +13,7 @@ h1, h2, p, a {
 }
 
 h1 {
-    font-size: clamp(3.5rem, 7rem, 7vw);
+    font-size: clamp(3.5rem, 10rem, 7vw);
     font-weight: 600;
     margin-bottom: 2.5rem;
 }
@@ -36,6 +36,13 @@ a {
 }
 
 article {
+    /* border-top: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    border-width: 50%; */
+    padding-top: 5rem;
+}
+
+form {
     padding-top: 5rem;
 }
 

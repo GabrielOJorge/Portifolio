@@ -1,7 +1,8 @@
 .main-btn {
+  display: flex;
+  justify-content: center;
   padding: 5rem 10rem;
-  margin-bottom: 15rem;
-  /* border-bottom: #fff 1px solid; */
+  margin-bottom: 5rem;
 }
 
 .arrow {
