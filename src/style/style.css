@@ -19,8 +19,13 @@
     width: min(700px, 80%);
     text-align: center;
     background-color: var(--clr-bg);
+    border-radius: 2.5rem;
 }
 
 .info .content {
     width: 80%;
+}
+
+.teste {
+    padding: 2.5rem 12.5rem;
 }
