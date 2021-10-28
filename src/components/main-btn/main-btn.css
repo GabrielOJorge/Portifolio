@@ -1,3 +1,13 @@
 .main-btn {
-  padding: 2.5rem 12.5rem;
+  padding: 5rem;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--clr-btn-bg);
+  border-radius: 100%;
 }
