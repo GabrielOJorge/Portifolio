@@ -1,5 +1,7 @@
 .main-btn {
-  padding: 5rem;
+  padding: 5rem 10rem;
+  margin-bottom: 15rem;
+  /* border-bottom: #fff 1px solid; */
 }
 
 .arrow {

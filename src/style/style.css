@@ -20,6 +20,8 @@
     text-align: center;
     background-color: var(--clr-bg);
     border-radius: 2.5rem;
+    position: relative;
+    bottom: 20rem;
 }
 
 .info .content {
