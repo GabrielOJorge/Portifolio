@@ -32,10 +32,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 18rem;
+    margin-bottom: 10rem;
+}
+
+.tech p {
+    margin-bottom: 2rem;
 }
 
 .fab {
-    font-size: 10rem;
+    font-size: clamp(5rem, 10rem, 10vw);
     color: #fff;
+}
+
+.fas {
+    font-size: clamp(3rem, 4rem, 7vw);
+    color: #74767C;
 }
