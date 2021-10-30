@@ -31,12 +31,8 @@
 .tech {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10rem;
-}
-
-.tech p {
-    margin-bottom: 2rem;
 }
 
 .fab {
@@ -47,4 +43,17 @@
 .fas {
     font-size: clamp(3rem, 4rem, 7vw);
     color: #74767C;
+}
+
+.teste {
+    background-color: #fff;
+    width: 20rem;
+    height: 15rem;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
 }
