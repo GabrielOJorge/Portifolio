@@ -7,7 +7,7 @@ body {
     background-size: cover;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, input, textarea, button {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
@@ -39,14 +39,17 @@ a {
 }
 
 article {
-    /* border-top: #fff 1px solid;
-    border-bottom: #fff 1px solid;
-    border-width: 50%; */
     padding-top: 5rem;
 }
 
 form {
-    padding-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-
+input, textarea {
+    background-color: var(--clr-btn-bg);
+    border-style: none;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-size: clamp(1.5rem, 2rem, 4vw);
+}
