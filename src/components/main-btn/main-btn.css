@@ -14,3 +14,8 @@
   background-color: var(--clr-btn-bg);
   border-radius: 100%;
 }
+
+.fa-chevron-down {
+  font-size: clamp(3rem, 4rem, 7vw);
+  color: var(--clr-arrow);
+}

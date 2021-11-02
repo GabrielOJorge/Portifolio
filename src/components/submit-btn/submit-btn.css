@@ -1,6 +1,6 @@
 .submit-btn {
   color: var(--clr-bg);
-  background-color: #e1e0e2;
+  background-color: var(--clr-light-grey);
   border-style: none;
   border-radius: 1rem;
   padding: 1.5rem;
@@ -10,7 +10,7 @@
 }
 
 .submit-btn {
-  transition: background .5s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
 .submit-btn:hover {

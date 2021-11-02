@@ -35,14 +35,9 @@
     margin-bottom: 10rem;
 }
 
-.fab {
+.fa-html5, .fa-css3-alt, .fa-js {
     font-size: clamp(6rem, 10rem, 10vw);
     color: #fff;
-}
-
-.fas {
-    font-size: clamp(3rem, 4rem, 7vw);
-    color: #74767C;
 }
 
 .teste {

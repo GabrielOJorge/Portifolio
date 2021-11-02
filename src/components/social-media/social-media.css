@@ -1,11 +1,16 @@
-.fa-github, .fa-linkedin, .fa-envelope {
-  font-size: clamp(3rem, 4rem, 3vw);
-  color: #fff;
-}
-
 .media {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin: 2rem;
 }
+.fa-github, .fa-linkedin, .fa-envelope {
+  font-size: clamp(3rem, 4rem, 3vw);
+  color: var(--clr-light-grey);
+  transition: color .3s ease-in-out;
+}
+
+.fa-github:hover, .fa-linkedin:hover, .fa-envelope:hover {
+  color: #fff;
+}
+

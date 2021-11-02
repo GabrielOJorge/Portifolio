@@ -1,4 +1,6 @@
 :root {
     --clr-bg: rgb(26, 26, 26, .8);
     --clr-btn-bg: rgb(196, 196, 196, .05);
+    --clr-light-grey: #e1e0e2;
+    --clr-arrow: #74767C;
 }
