@@ -13,6 +13,11 @@
     font-size: clamp(2rem, 3.5rem, 4vw);
 }
 
+.subtitle {
+    font-size: clamp(2rem, 4rem, 4vw);
+    margin: 0;
+}
+
 .info {
     display: flex;
     justify-content: center;
@@ -28,15 +33,20 @@
     width: 80%;
 }
 
+.skills {
+    display: flex;
+}
+
 .tech {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 10rem;
+    gap: 2rem;
 }
 
 .fa-html5, .fa-css3-alt, .fa-js {
-    font-size: clamp(6rem, 10rem, 10vw);
+    font-size: clamp(12rem, 12rem, 10vw);
     color: #fff;
 }
 
@@ -50,7 +60,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
     margin-bottom: 10rem;
 }
 

@@ -19,18 +19,18 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(3rem, 4rem, 7vw);
+    font-size: clamp(3.5rem, 4rem, 7vw);
     font-weight: 600;
     margin-bottom: 10rem;
 }
 
 h3 {
-    font-size: clamp(2rem, 3rem, 4vw);
-    margin-bottom: 1rem;
+    font-size: clamp(3rem, 3.5rem, 4vw);
+    margin-bottom: 1.5rem;
 }
 
 p {
-    font-size: clamp(2rem, 3rem, 4vw);
+    font-size: clamp(2.2rem, 3rem, 4vw);
     margin-bottom: 10rem;
 }
 
@@ -51,5 +51,5 @@ input, textarea {
     border-style: none;
     border-radius: 1rem;
     padding: 1.5rem;
-    font-size: clamp(1.5rem, 2rem, 4vw);
+    font-size: clamp(2rem, 2.5rem, 4vw);
 }

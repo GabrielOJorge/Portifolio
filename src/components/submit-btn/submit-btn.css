@@ -4,7 +4,7 @@
   border-style: none;
   border-radius: 1rem;
   padding: 1.5rem;
-  font-size: clamp(1.5rem, 2rem, 4vw);
+  font-size: clamp(1.8rem, 2.5rem, 4vw);
   font-weight: 600;
   cursor: pointer;
 }

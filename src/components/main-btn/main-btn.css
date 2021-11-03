@@ -1,8 +1,7 @@
 .main-btn {
   display: flex;
   justify-content: center;
-  padding: 5rem 10rem;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
 }
 
 .arrow {
