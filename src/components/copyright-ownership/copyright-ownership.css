@@ -1,0 +1,8 @@
+.copyright-ownership {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  font-size: clamp(1rem, 1.5rem, 2vw);
+  color: var(--clr-light-grey);
+}
