@@ -53,3 +53,7 @@ input, textarea {
     padding: 1.5rem;
     font-size: clamp(2rem, 2.5rem, 4vw);
 }
+
+textarea {
+    resize: none;
+}
