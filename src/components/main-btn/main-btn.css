@@ -15,6 +15,24 @@
 }
 
 .fa-chevron-down {
-  font-size: clamp(3rem, 4rem, 7vw);
+  font-size: clamp(3.5rem, 3.5rem, 7vw);
   color: var(--clr-arrow);
+}
+
+.main-btn:hover .fa-chevron-down{
+  animation: move 1.1s infinite ease-in-out;
+}
+
+@keyframes move {
+  0% {
+    margin-top: 0;
+  }
+
+  50% {
+    margin-top: 1.5rem;
+  }
+
+  100% {
+    margin-top: 0;
+  }
 }
