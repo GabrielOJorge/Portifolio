@@ -1,0 +1,9 @@
+::-webkit-scrollbar {
+  width: 1rem;
+  background: var(--clr-btn-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-arrow);
+  border-radius: 1rem;
+}
