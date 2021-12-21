@@ -46,7 +46,7 @@
 }
 
 .fa-html5, .fa-css3-alt, .fa-js {
-    font-size: clamp(12rem, 12rem, 10vw);
+    font-size: clamp(10rem, 12rem, 10vw);
     color: #fff;
 }
 
