@@ -30,7 +30,7 @@
 }
 
 .info .content {
-    width: 80%;
+    width: 85%;
 }
 
 .skills {
@@ -60,7 +60,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 2rem;
     margin-bottom: 10rem;
 }
 
