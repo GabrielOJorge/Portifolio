@@ -27,9 +27,6 @@
 
 .info .content {
     width: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .tech {
@@ -38,7 +35,6 @@
     justify-content: space-around;
     margin-bottom: 10rem;
     gap: 5rem;
-    width: 100%;
 }
 
 .tech h3 {
@@ -62,10 +58,6 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 10rem;
-}
-
-.contact {
-    display: block;
 }
 
 #contact {

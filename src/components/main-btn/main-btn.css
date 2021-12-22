@@ -6,7 +6,7 @@
   height: clamp(8rem, 10rem, 8vw);
   background-color: var(--clr-btn-bg);
   border-radius: 100%;
-  margin: 5rem 0;
+  margin: 5rem auto;
 }
 
 .fa-chevron-down {
