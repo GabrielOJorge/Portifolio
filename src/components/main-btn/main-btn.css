@@ -8,14 +8,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
-  height: 10rem;
+  width: clamp(8rem, 10rem, 8vw);
+  height: clamp(8rem, 10rem, 8vw);
   background-color: var(--clr-btn-bg);
   border-radius: 100%;
 }
 
 .fa-chevron-down {
-  font-size: clamp(3.5rem, 3.5rem, 7vw);
+  font-size: clamp(3rem, 3.5rem, 4vw);
   color: var(--clr-arrow);
 }
 
