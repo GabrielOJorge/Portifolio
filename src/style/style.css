@@ -1,6 +1,5 @@
 .banner {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -9,12 +8,9 @@
     text-align: center;
 }
 
-.banner p {
-    font-size: clamp(2rem, 3.5rem, 4vw);
-}
-
 .subtitle {
     font-size: clamp(2.5rem, 4rem, 4vw);
+    font-weight: initial;
     margin: 0;
 }
 
