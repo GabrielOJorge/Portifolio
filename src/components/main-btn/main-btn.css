@@ -1,10 +1,4 @@
-.main-btn {
-  display: flex;
-  justify-content: center;
-  margin: 5rem 0;
-}
-
-.arrow {
+.arrow-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +6,7 @@
   height: clamp(8rem, 10rem, 8vw);
   background-color: var(--clr-btn-bg);
   border-radius: 100%;
+  margin: 5rem 0;
 }
 
 .fa-chevron-down {
@@ -19,7 +14,7 @@
   color: var(--clr-arrow);
 }
 
-.main-btn:hover .fa-chevron-down{
+.arrow-btn:hover .fa-chevron-down {
   animation: move 1.1s infinite ease-in-out;
 }
 
