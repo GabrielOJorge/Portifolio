@@ -13,7 +13,7 @@ h1, h2, h3, p, input, textarea, button {
 }
 
 h1 {
-    font-size: clamp(3.5rem, 10rem, 7vw);
+    font-size: clamp(4.5rem, 10rem, 7vw);
     font-weight: 600;
     margin-bottom: 2.5rem;
 }
