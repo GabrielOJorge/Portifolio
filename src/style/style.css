@@ -9,7 +9,7 @@
 }
 
 .subtitle {
-    font-size: clamp(2.5rem, 4rem, 4vw);
+    font-size: clamp(2.5rem, 4rem, 5vw);
     font-weight: initial;
     margin: 0;
 }
