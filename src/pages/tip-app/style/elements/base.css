@@ -1,8 +1,10 @@
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    width: max(280px, 100%);
+    width: 100%;
     background: url(../../../../assets/images/bg-img-blur.png) no-repeat center fixed #000;
     background-size: cover;
 }
