@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 
-h1, h2, h3, p, input, textarea, button {
+h1, h2, h3, p, button {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
@@ -33,7 +33,6 @@ h3 {
 
 p {
     font-size: clamp(2.2rem, 3rem, 4vw);
-    margin-bottom: 10rem;
 }
 
 a {
@@ -42,20 +41,4 @@ a {
 
 article {
     padding-top: 5rem;
-}
-
-form {
-    margin-bottom: 5rem;
-}
-
-input, textarea {
-    background-color: var(--clr-btn-bg);
-    border-style: none;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    font-size: clamp(2rem, 2.5rem, 4vw);
-}
-
-textarea {
-    resize: none;
 }
