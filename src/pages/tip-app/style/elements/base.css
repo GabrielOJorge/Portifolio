@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max(280px, 100%);
+    background: url(../../../../assets/images/bg-img-blur.png) no-repeat center fixed #000;
+    background-size: cover;
+}
+
+h1, h2, h3, p, input, textarea, button {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: clamp(4.5rem, 10rem, 10vw);
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-size: clamp(3.5rem, 4rem, 7vw);
+    font-weight: 600;
+    margin-bottom: 10rem;
+}
+
+h3 {
+    font-size: clamp(3rem, 3.5rem, 4vw);
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: clamp(2.2rem, 3rem, 4vw);
+    margin-bottom: 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    padding-top: 5rem;
+}
+
+form {
+    margin-bottom: 5rem;
+}
+
+input, textarea {
+    background-color: var(--clr-btn-bg);
+    border-style: none;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-size: clamp(2rem, 2.5rem, 4vw);
+}
+
+textarea {
+    resize: none;
+}
