@@ -7,8 +7,9 @@
     border-radius: 2.5rem;
 }
 
-.info .content {
+.content {
     width: 85%;
+    padding: 10rem 0;
 }
 
 .tech {
