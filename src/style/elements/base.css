@@ -7,7 +7,7 @@ body {
     background-size: cover;
 }
 
-h1, h2, h3, p, input, textarea, button {
+h1, h2, h3, p, input, textarea, button, a {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
