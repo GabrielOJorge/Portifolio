@@ -1,0 +1,19 @@
+.project-btn {
+  color: var(--clr-bg);
+  background-color: var(--clr-light-grey);
+  border-style: none;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: clamp(1.8rem, 2.5rem, 4vw);
+  font-weight: 600;
+  cursor: pointer;
+  width: 31%;
+}
+
+.project-btn {
+  transition: background .3s ease-in-out;
+}
+
+.project-btn:hover {
+  background-color: #fff;
+}
