@@ -7,7 +7,7 @@
   font-size: clamp(1.8rem, 2.5rem, 4vw);
   font-weight: 600;
   cursor: pointer;
-  width: 31%;
+  width: clamp(16rem, 18rem, 14vw);
 }
 
 .project-btn {
