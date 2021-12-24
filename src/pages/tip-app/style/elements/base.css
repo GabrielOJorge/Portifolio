@@ -8,37 +8,3 @@ body {
     background: url(../../../../assets/images/tip-app-bg-img.png) no-repeat center fixed #000;
     background-size: cover;
 }
-
-h1, h2, h3, p, button {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
-}
-
-h1 {
-    font-size: clamp(4.5rem, 10rem, 10vw);
-    font-weight: 600;
-    margin-bottom: 2.5rem;
-}
-
-h2 {
-    font-size: clamp(3.5rem, 4rem, 7vw);
-    font-weight: 600;
-    margin-bottom: 10rem;
-}
-
-h3 {
-    font-size: clamp(3rem, 3.5rem, 4vw);
-    margin-bottom: 2rem;
-}
-
-p {
-    font-size: clamp(2.2rem, 3rem, 4vw);
-}
-
-a {
-    text-decoration: none;
-}
-
-article {
-    padding-top: 5rem;
-}
