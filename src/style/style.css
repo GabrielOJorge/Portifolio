@@ -60,6 +60,11 @@
     margin-bottom: 10rem;
 }
 
+.projects-wrapper img {
+    width: 90%;
+    border-radius: 2.5rem;
+}
+
 #contact {
     display: flex;
     flex-direction: column;
