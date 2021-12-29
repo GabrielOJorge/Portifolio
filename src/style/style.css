@@ -29,6 +29,10 @@
     width: 85%;
 }
 
+#about p {
+    margin-bottom: 10rem;
+}
+
 .tech {
     display: flex;
     flex-direction: column;
@@ -70,6 +74,39 @@
     flex-direction: column;
     gap: 1rem;
     width: 100%;
+}
+
+.project-img {
+    position: relative;
+}
+
+.project-img a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-img {
+    transition: filter .2s ease-in;
+}
+
+.img-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 2.5rem;
+    opacity: 0;
+    transition: all .2s ease-in;
+}
+
+
+.img-overlay:hover {
+    opacity: 1;
 }
 
 @media (min-width: 500px) {
