@@ -50,12 +50,6 @@
     color: #fff;
 }
 
-.teste {
-    background-color: #fff;
-    width: 20rem;
-    height: 15rem;
-}
-
 .projects-wrapper {
     display: flex;
     flex-direction: column;

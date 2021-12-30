@@ -34,37 +34,6 @@ p {
     gap: 3rem;
 }
 
-.tech {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 10rem;
-    gap: 5rem;
-}
-
-.tech h3 {
-    margin-bottom: 1rem;
-}
-
-.fa-html5, .fa-css3-alt, .fa-js {
-    font-size: clamp(10rem, 12rem, 10vw);
-    color: #fff;
-}
-
-.teste {
-    background-color: #fff;
-    width: 20rem;
-    height: 15rem;
-}
-
-.projects-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 10rem;
-}
-
 .project-tech {
     width: 100%;
 }
@@ -72,17 +41,4 @@ p {
 .project-tech ul {
     display: flex;
     justify-content: space-evenly;
-}
-
-#contact {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-}
-
-@media (min-width: 500px) {
-    .tech {
-        flex-direction: row;
-    }
 }
