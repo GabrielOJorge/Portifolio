@@ -65,6 +65,15 @@ p {
     margin-bottom: 10rem;
 }
 
+.project-tech {
+    width: 100%;
+}
+
+.project-tech ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #contact {
     display: flex;
     flex-direction: column;
