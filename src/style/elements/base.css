@@ -7,7 +7,7 @@ body {
     background-size: cover;
 }
 
-h1, h2, h3, p, input, textarea, button, a {
+h1, h2, h3, p, input, textarea, button, a, ul {
     font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
 }
@@ -29,7 +29,7 @@ h3 {
     margin-bottom: 4.5rem;
 }
 
-p {
+p, ul {
     font-size: clamp(2.2rem, 3rem, 4vw);
 }
 
