@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    scrollbar-color: var(--clr-arrow) var(--clr-btn-bg);
+    scrollbar-width: thin;
 }
 
 body {
