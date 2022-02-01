@@ -81,13 +81,16 @@
 }
 
 .img-img {
-    transition: filter .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.img-img:hover {
+    opacity: 0;
 }
 
 .img-overlay {
     position: absolute;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     top: 0;
     width: 90%;
@@ -98,6 +101,11 @@
     transition: all .2s ease-in;
 }
 
+.img-overlay ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .img-overlay:hover {
     opacity: 1;
