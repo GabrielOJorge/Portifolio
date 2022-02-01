@@ -84,10 +84,6 @@
     transition: all .2s ease-in;
 }
 
-.img-img:hover {
-    opacity: 0;
-}
-
 .img-overlay {
     position: absolute;
     display: flex;
