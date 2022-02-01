@@ -57,8 +57,13 @@ input, textarea {
     border-radius: 1rem;
     padding: 1.5rem;
     font-size: clamp(2rem, 2.5rem, 4vw);
+    resize: none;
 }
 
-textarea {
-    resize: none;
+input:focus {
+  outline: 2px solid var(--clr-light-grey);
+}
+
+textarea:focus {
+  outline: 2px solid var(--clr-light-grey);
 }
