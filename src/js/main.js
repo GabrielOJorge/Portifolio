@@ -1,6 +1,6 @@
 const imageImg = document.querySelectorAll(".img-img");
 const imgOverlay = document.querySelectorAll(".img-overlay");
-const arrowBtn = document.querySelectorAll(".arrow-btn")
+const arrowBtn = document.querySelectorAll(".arrow-btn");
 
 for (let i = 0; i < imgOverlay.length; i++) {
   imgOverlay[i].addEventListener("mouseenter", () => {
@@ -10,4 +10,4 @@ for (let i = 0; i < imgOverlay.length; i++) {
   imgOverlay[i].addEventListener("mouseleave", () => {
     imageImg[i].style.opacity = "1"
   });
-}
+};
