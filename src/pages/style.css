@@ -3,7 +3,7 @@
     justify-content: center;
     width: min(800px, 80%);
     text-align: center;
-    background-color: var(--clr-bg);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 2.5rem;
     margin-top: 10rem;
 }
