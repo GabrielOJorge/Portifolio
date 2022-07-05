@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/c9177c3399.js" crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="src/style/generic/reset.css">
   <link rel="stylesheet" href="src/style/style.css">
   <link rel="stylesheet" href="src/style/elements/base.css">
@@ -19,6 +22,7 @@
   <link rel="stylesheet" href="src/components/copyright-ownership/copyright-ownership.css">
   <link rel="stylesheet" href="src/components/main-footer/main-footer.css">
   <link rel="stylesheet" href="src/components/main-scrollbar/main-scrollbar.css">
+  <link rel="stylesheet" href="src/components/swiper-api/swiper-api.css">
 </head>
 <body>
   <section class="banner"> 
@@ -49,17 +53,55 @@
       <article id="skills">
         <h2>Skills</h2>
         <div class="tech">
-          <div>
-            <h3>HTML</h3>
-            <i class="fab fa-html5"></i>
-          </div>
-          <div>
-            <h3>CSS</h3>
-            <i class="fab fa-css3-alt"></i>
-          </div>
-          <div>
-            <h3>JS</h3>
-            <i class="fab fa-js"></i>
+          <div class="swiper -skills">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div>
+                  <h3>HTML</h3>
+                  <i class="fab fa-html5"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <h3>CSS</h3>
+                  <i class="fab fa-css3-alt"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <h3>JS</h3>
+                  <i class="fab fa-js"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <h3>Git</h3>
+                  <i class="fa-brands fa-git-alt"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <h3>NPM</h3>
+                  <i class="fa-brands fa-npm"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <h3>Webpack</h3>
+                  <i class="iconify" data-icon="simple-icons:webpack"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <h3>Tailwind</h3>
+                  <i class="iconify" data-icon="bxl:tailwind-css"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
         <a class="arrow-btn" href="#work"><i class="fas fa-chevron-down"></i></a>
@@ -67,103 +109,125 @@
 
       <article id="work">
         <h2>Work</h2>
-        <div class="projects-wrapper">
-          <div>
-            <h3>Huddle</h3>
-            <div class="project-img">
-              <a href="/src/pages/huddle-landing-page/huddle-landing-page-en.html">
-                <img class="img-img" src="src/assets/images/huddle-landing-page.png" alt="Huddle página inicial">
-                <div class="img-overlay img-overlay-blur">
-                  <ul>
-                    <li class="img-descripition">HTML</li>
-                    <li class="img-descripition">CSS</li>
-                  </ul>
+
+        <div class="swiper -work">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <h3>Rock, Paper, Scissors</h3>
+                <div class="project-img">
+                  <a href="src/pages/rock-paper-scissors/rock-paper-scissors-en.html">
+                    <img class="img-img" src="src/assets/images/rock-paper-scissors.png" alt="Pedra, Papel, Tesoura">
+                    <div class="img-overlay img-overlay-blur">
+                      <ul>
+                        <li class="img-descripition">HTML</li>
+                        <li class="img-descripition">CSS</li>
+                        <li class="img-descripition">JavaScript</li>
+                      </ul>
+                    </div>
+                  </a>
                 </div>
-              </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h3>Etch-A-Sketch</h3>
+                <div class="project-img">
+                  <a href="src/pages/etch-a-sketch/etch-a-sketch-en.html">
+                    <img class="img-img" src="src/assets/images/etch-a-sketch.png" alt="Quadro Mágico">
+                    <div class="img-overlay img-overlay-blur">
+                      <ul>
+                        <li class="img-descripition">HTML</li>
+                        <li class="img-descripition">CSS</li>
+                        <li class="img-descripition">JavaScript</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h3>Tip Calculator</h3>
+                <div class="project-img">
+                  <a href="src/pages/tip-app/tip-app-en.html">
+                    <img class="img-img" src="src/assets/images/tip-app-img.png" alt="Gorjeta App">
+                    <div class="img-overlay img-overlay-blur">
+                      <ul>
+                        <li class="img-descripition">HTML</li>
+                        <li class="img-descripition">CSS</li>
+                        <li class="img-descripition">JavaScript</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h3>Calculator</h3>
+                <div class="project-img">
+                  <a href="src/pages/calculator/calculator-en.html">
+                    <img class="img-img" src="src/assets/images/calculator.png" alt="Calculadora">
+                    <div class="img-overlay img-overlay-blur">
+                      <ul>
+                        <li class="img-descripition">HTML</li>
+                        <li class="img-descripition">CSS</li>
+                        <li class="img-descripition">JavaScript</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h3>Sign up form</h3>
+                <div class="project-img">
+                  <a href="src/pages/sign-up-form/sign-up-form-en.html">
+                    <img class="img-img" src="src/assets/images/sign-up-form.png" alt="Página de criação de conta">
+                    <div class="img-overlay img-overlay-blur">
+                      <ul>
+                        <li class="img-descripition">HTML</li>
+                        <li class="img-descripition">CSS</li>
+                        <li class="img-descripition">JavaScript</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h3>Tic-Tac-Toe</h3>
+                <div class="project-img">
+                  <a href="src/pages/tic-tac-toe/tic-tac-toe-en.html">
+                    <img class="img-img" src="src/assets/images/tic-tac-toe.png" alt="Jogo da velha">
+                    <div class="img-overlay img-overlay-blur">
+                      <ul>
+                        <li class="img-descripition">HTML</li>
+                        <li class="img-descripition">CSS</li>
+                        <li class="img-descripition">JavaScript</li>
+                        <li class="img-descripition">Tailwind</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-          <div>
-            <h3>Rock, Paper, Scissors</h3>
-            <div class="project-img">
-              <a href="/src/pages/rock-paper-scissors/rock-paper-scissors-en.html">
-                <img class="img-img" src="src/assets/images/rock-paper-scissors.png" alt="Pedra, Papel, Tesoura">
-                <div class="img-overlay img-overlay-blur">
-                  <ul>
-                    <li class="img-descripition">HTML</li>
-                    <li class="img-descripition">CSS</li>
-                    <li class="img-descripition">JavaScript</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div>
-            <h3>Etch-A-Sketch</h3>
-            <div class="project-img">
-              <a href="/src/pages/etch-a-sketch/etch-a-sketch-en.html">
-                <img class="img-img" src="src/assets/images/etch-a-sketch.png" alt="Quadro Mágico">
-                <div class="img-overlay img-overlay-blur">
-                  <ul>
-                    <li class="img-descripition">HTML</li>
-                    <li class="img-descripition">CSS</li>
-                    <li class="img-descripition">JavaScript</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div>
-            <h3>Tip calculator</h3>
-            <div class="project-img">
-              <a href="/src/pages/tip-app/tip-app-en.html">
-                <img class="img-img" src="src/assets/images/tip-app-img.png" alt="Gorjeta App">
-                <div class="img-overlay img-overlay-blur">
-                  <ul>
-                    <li class="img-descripition">HTML</li>
-                    <li class="img-descripition">CSS</li>
-                    <li class="img-descripition">JavaScript</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div>
-            <h3>Calculator</h3>
-            <div class="project-img">
-              <a href="/src/pages/calculator/calculator-en.html">
-                <img class="img-img" src="src/assets/images/calculator.png" alt="Calculadora">
-                <div class="img-overlay img-overlay-blur">
-                  <ul>
-                    <li class="img-descripition">HTML</li>
-                    <li class="img-descripition">CSS</li>
-                    <li class="img-descripition">JavaScript</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div>
-            <h3>Sign Up Form</h3>
-            <div class="project-img">
-              <a href="/src/pages/sign-up-form/sign-up-form-en.html">
-                <img class="img-img" src="src/assets/images/sign-up-form.png" alt="Calculadora">
-                <div class="img-overlay img-overlay-blur">
-                  <ul>
-                    <li class="img-descripition">HTML</li>
-                    <li class="img-descripition">CSS</li>
-                    <li class="img-descripition">JavaScript</li>
-                  </ul>
-                </div>
-              </a>
-            </div>
-          </div>
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
+
         <a class="arrow-btn" href="#contact"><i class="fas fa-chevron-down"></i></a>
       </article>
 
-      <article class="contact">
+      <article id="contact">
         <h2>Contact</h2>
-        <form id="contact" action="https://formspree.io/f/xqkwvlwv" method="post">
+        <form id="contact-form" action="https://formspree.io/f/xqkwvlwv" method="post">
           <input type="text" name="name" id="name" placeholder="Name" required>
           <input type="email" name="email" id="email" placeholder="Email" required>
           <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>

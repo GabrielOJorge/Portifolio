@@ -1,6 +1,5 @@
 const imageImg = document.querySelectorAll(".img-img");
 const imgOverlay = document.querySelectorAll(".img-overlay");
-const arrowBtn = document.querySelectorAll(".arrow-btn");
 
 for (let i = 0; i < imgOverlay.length; i++) {
   imgOverlay[i].addEventListener("mouseenter", () => {
@@ -11,3 +10,34 @@ for (let i = 0; i < imgOverlay.length; i++) {
     imageImg[i].style.opacity = "1"
   });
 };
+
+const swiper = new Swiper('.swiper', {
+  loop: true,
+
+  effect: "coverflow",
+
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
+  },
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  autoplay: {
+    delay: 3000,
+    pauseOnMouseEnter: true,
+    disableOnInteraction: false,
+  },
+});
