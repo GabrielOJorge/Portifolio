@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="src/style/style.css">
   <link rel="stylesheet" href="src/style/elements/base.css">
   <link rel="stylesheet" href="src/style/settings/colors.css">
-  <link rel="stylesheet" href="src/components/arrow-btn/arrow-btn.css">
+  <link rel="stylesheet" href="src/components/main-banner/main-banner.css">
+  <link rel="stylesheet" href="src/components/main-btn/style.css">
   <link rel="stylesheet" href="src/components/submit-btn/submit-btn.css">
   <link rel="stylesheet" href="src/components/social-media/social-media.css">
   <link rel="stylesheet" href="src/components/copyright-ownership/copyright-ownership.css">
@@ -27,27 +28,29 @@
 <body>
   <section class="banner"> 
     <div>
-      <h1>Gabriel O. Jorge</h1>
-      <h2 class="subtitle">Frontend Developer</h2>
+      <div>
+        <h1>Gabriel O. Jorge</h1>
+        <h2 class="subtitle">Frontend Developer</h2>
+      </div>
+  
+      <div class="btn-wrapper">
+        <a class="main-btn -lang" href="index-en.html">EN</a>
+        <span></span>
+        <a class="main-btn -lang" href="index.html">PT</a>
+      </div>
     </div>
 
-    <div class="btn-wrapper">
-      <a class="arrow-btn -lang" href="index-en.html">EN</a>
-      <span></span>
-      <a class="arrow-btn -lang" href="index.html">PT</a>
-    </div>
+    <a class="main-btn" href="#about"><i class="fas fa-chevron-down"></i></a>
   </section>
   
   <main class="info">
     <div class="content">
-      <a class="arrow-btn" href="#about"><i class="fas fa-chevron-down"></i></a>
-
       <article id="about">
         <h2>About</h2>
         <p>
           I'm studying to become a React Frontend developer. Furthermore, I'm interested in learning Nextjs, Nodejs and Tailwind.  
         </p>
-        <a class="arrow-btn" href="#skills"><i class="fas fa-chevron-down"></i></a>
+        <a class="main-btn" href="#skills"><i class="fas fa-chevron-down"></i></a>
       </article>
 
       <article id="skills">
@@ -104,7 +107,7 @@
             <div class="swiper-button-next"></div>
           </div>
         </div>
-        <a class="arrow-btn" href="#work"><i class="fas fa-chevron-down"></i></a>
+        <a class="main-btn" href="#work"><i class="fas fa-chevron-down"></i></a>
       </article>
 
       <article id="work">
@@ -222,7 +225,7 @@
           <div class="swiper-button-next"></div>
         </div>
 
-        <a class="arrow-btn" href="#contact"><i class="fas fa-chevron-down"></i></a>
+        <a class="main-btn" href="#contact"><i class="fas fa-chevron-down"></i></a>
       </article>
 
       <article id="contact">
