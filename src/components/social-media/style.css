@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 4rem;
+  padding: 4rem 0;
 }
 .fa-github, .fa-linkedin, .fa-envelope {
   font-size: clamp(3rem, 4rem, 3vw);
