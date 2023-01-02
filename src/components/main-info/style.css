@@ -4,7 +4,7 @@
   width: min(800px, 80%);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 2.5rem;
+  border-radius: 1rem;
 }
 
 .info .content {
@@ -34,7 +34,7 @@
 
 .project-img img {
   width: 90%;
-  border-radius: 2.5rem;
+  border-radius: 1rem;
 }
 
 #contact-form {
@@ -66,7 +66,7 @@
   width: 90%;
   height: 100%;
   background: rgba(26, 26, 26, 0.6);
-  border-radius: 2.5rem;
+  border-radius: 1rem;
   opacity: 0;
   transition: all .2s ease-in;
 }

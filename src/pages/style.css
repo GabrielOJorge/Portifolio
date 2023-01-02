@@ -4,7 +4,7 @@
     width: min(800px, 80%);
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 2.5rem;
+    border-radius: 1rem;
     margin-top: 10rem;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .content img {
-    border-radius: 2.5rem;
+    border-radius: 1rem;
     width: 90%;
 }
 
@@ -37,4 +37,5 @@
 .project-tech ul {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
